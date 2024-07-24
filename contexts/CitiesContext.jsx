@@ -6,7 +6,7 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://react-quiz-backend-3onp.onrender.com";
 const CitiesContext = createContext();
 const initialState = {
   cities: [],
@@ -52,7 +52,7 @@ function CitiesProvider({ children }) {
         dispatch({ type: "loading" });
         const response = await fetch(`${BASE_URL}/cities`);
         const citiesData = await response.json();
-        dispatch({ type: "cities/loaded", payLoad: citiesData });
+        dispatch({ type: "cities/loaded", payLoad: citiesData.cities.cities });
       } catch (err) {
         dispatch({ type: "rejected", payLoad: err.message });
       }

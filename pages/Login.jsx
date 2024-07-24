@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 import Button from "../components/Button";
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
-  const [email, setEmail] = useState("arbazkamboh342@gmail.com");
-  const [password, setPassword] = useState("12345678");
+  const [email, setEmail] = useState("test@gmail.com");
+  const [password, setPassword] = useState("test1234");
   const { login, isAuthenticated } = useAuth();
   const navigate = useNavigate();
 

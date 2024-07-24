@@ -8,10 +8,10 @@ const initialState = {
 
 const FAKE_USER = {
   name: "Arbaz",
-  email: "arbazkamboh342@gmail.com",
-  password: "12345678",
+  email: "test@gmail.com",
+  password: "test1234",
   avatar:
-    "https://scontent.fkhi11-1.fna.fbcdn.net/v/t39.30808-1/347232137_263578229471118_5069170607590369080_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHjlarvKBbvElNorpltosU3EDGu3geJrZcQMa7eB4mtl_WtEm8fbwqM7u9hzrMiwWTb89gAQI5Cfwo51Ta7Pkjk&_nc_ohc=MLINidF_z6oAX-ZMfSW&_nc_ht=scontent.fkhi11-1.fna&oh=00_AfDqasask9fivJiCBOqAqMw02aFlw_R5B-0gVQr9kcnx5Q&oe=65F7C5CA",
+    "https://scontent.fkhi11-1.fna.fbcdn.net/v/t39.30808-6/347232137_263578229471118_5069170607590369080_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHjlarvKBbvElNorpltosU3EDGu3geJrZcQMa7eB4mtl_WtEm8fbwqM7u9hzrMiwWTb89gAQI5Cfwo51Ta7Pkjk&_nc_ohc=_MPoyjCAomAQ7kNvgEaUMDO&_nc_zt=23&_nc_ht=scontent.fkhi11-1.fna&oh=00_AYB8nwgiewmIhxvvhUgFSNvw3El8TLKd-k3xdShl8aw1Eg&oe=66A6E6D0",
 };
 
 function reducer(state, action) {
