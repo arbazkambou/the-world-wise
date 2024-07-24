@@ -1,8 +1,27 @@
-# React + Vite
+# WorldWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WorldWise is a travel app developed as part of Jonas Schmedtmann's React course. This app helps users keep track of the places they've visited and plan their future trips. It utilizes various React concepts and libraries, providing a comprehensive learning experience for React development.
 
-Currently, two official plugins are available:
+[Deployed Project Link](https://the-world-wise-mu.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Add places to the visited list by clicking on map
+- Plan future trips by adding places to the wishlist
+- View details of each place
+- Edit and delete places
+
+## Technologies Used
+
+- React: For building the user interface
+- React Router: For navigation within the app
+- useState and useEffect: For managing component state and side effects
+- useReducer: For complex state management
+- Context API: For managing global state
+- Custom Hooks: For reusable logic
+- CSS Modules: For styling components
+- React-Leaflet for map integration
+
+## Contact
+
+Arbaz Shoukat - [arbazkambo342@gmail.com](mailto:arbazkambo342@gmail.com)
