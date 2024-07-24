@@ -1,0 +1,52 @@
+{
+  "cities": [
+    {
+      "id": "8a75",
+      "cityName": "Villar y Velasco",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-19T13:21:42.971Z",
+      "notes": "",
+      "position": {
+        "lat": "40.125754089828355",
+        "lng": "-2.416978876566605"
+      }
+    },
+    {
+      "id": "3d54",
+      "cityName": "Macao",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-03-19T13:21:47.598Z",
+      "notes": "",
+      "position": {
+        "lat": "39.55178162332977",
+        "lng": "-7.910126851304343"
+      }
+    },
+    {
+      "id": "7c54",
+      "cityName": "Santorcaz",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-19T13:53:42.603Z",
+      "notes": "",
+      "position": {
+        "lat": "40.437628996785136",
+        "lng": "-3.229982948834019"
+      }
+    },
+    {
+      "id": "b7d8",
+      "cityName": "A Peroxa",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-19T14:26:11.118Z",
+      "notes": "",
+      "position": {
+        "lat": "42.45467828737241",
+        "lng": "-7.778304243664498"
+      }
+    }
+  ]
+}
